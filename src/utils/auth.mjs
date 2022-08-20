@@ -41,7 +41,7 @@ export const signIN=async (req, res)=>{
         
         const match=await user.checkPassword(req.body.password)
         if(!match)
-        return res.status(400).json({message:"wrong password or email"})
+        return res.status(400).json({message:"wrong email or password"})
         const token= newToken(user)
         return res.status(201).json({token:token})
     }catch(err){

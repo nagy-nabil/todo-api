@@ -25,3 +25,6 @@
 ***all user end points (till now just for development) :shipit:***.<br />
 
 ![end points from insonia](./dump/Screenshot%202022-07-31%20225157.png)
+
+### TODO
+- problem the user could have more than one token at the same time

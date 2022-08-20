@@ -4,7 +4,8 @@
   "description": "learning design API with express js",
   "main": "./src/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"node ./src/index.mjs"
   },
   "repository": {
     "type": "git",
